@@ -105,6 +105,9 @@ map N Nzz
 map n nzz
 
 " Set tab to 2 spaces
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
 set expandtab
 au FileType html setlocal shiftwidth=2 tabstop=2
 au FileType javascript setlocal shiftwidth=2 tabstop=2
